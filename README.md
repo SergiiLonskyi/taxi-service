@@ -7,7 +7,7 @@
 # How to start
 * During the first launch you will be redirected to a login page where you have two options:
     * login (if you already registered)
-    * or
+  or
     * register like a new driver
 * To use all features you need to create new driver and authenticate
 * Driver can add himself to different cars
