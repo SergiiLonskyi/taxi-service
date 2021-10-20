@@ -2,7 +2,7 @@
 ![taxi](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/TAXI.jpg/800px-TAXI.jpg)
 
 # The goal
-*Create a taxi service with authentication system
+* Create a taxi service with authentication system
 ![line](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 # How to start
 * During the first launch you will be redirected to a login page where you have two options:
@@ -33,6 +33,10 @@ Project based on 3-layer architecture:
 2. Install MySQL and MySQL Workbench
 3. Create a schema and all the necessary tables by using the script from resources/init_db.sql in MySQL Workbench
 4. In the /util/ConnectionUtil.java class change the "user" and "password" properties to the ones you specified when installing MySQL
+   `private static final String URL = "YOUR URL";
+    private static final String USERNAME = "YOUR USERNAME";
+    private static final String PASSWORD = "YOUR PASSWORD";
+    private static final String JDBC_DRIVER = "YOUR DRIVER";`
 5. In the `src/main/resources/log4j2.xml` at line
    `File name = "File" fileName = "\app.log"`
    you need to change `"\app.log"` with absolute path to your `.log` file)
